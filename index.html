@@ -1,9 +1,69 @@
 <!doctype html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<title></title>
 </head>
 <body>
-
+	<ul class="nav nav-pills nav-stacked span2">
+		<li><a href="#">Home</a></li>
+		<li class="active"><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<div class="">
+		<button class="btn btn-danger"><i class="icon-trash icon-white"></i> Delete</button>
+		<button class="btn btn-large"><i class="icon-comment icon-black"></i> Comment</button>
+		<button class="btn"><i class="icon-refresh icon-black"></i> Refresh</button>
+	</div>
+	<form class="well span6">
+		<label>Username</label>
+		<input type="text" placeholder="Type username here" class="span3" data-tip="Username"/><br/>
+		<label>Password</label>
+		<input type="text" placeholder="Type password here" class="span3" data-tip="Password"/><br/>
+		<button class="btn btn-primary">Submit</button>
+		<button class="btn">Clear</button>
+	</form>
+	<form class="well form-search">
+		<input type="text" placeholder="Type query here" class="span3 search-query"/><br/>
+		<button class="btn btn-primary">Submit</button>
+		<button class="btn">Clear</button>
+	</form>
+	<form class="well form-inline">
+		<input type="text" placeholder="Username" class="span3"/>
+		<input type="text" placeholder="Password" class="span3"/>
+		<button class="btn btn-primary">Submit</button>
+	</form>
+	<table class="table-hover table table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Position</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Usman</td>
+				<td>28</td>
+				<td>Engineer</td>
+			</tr>
+			<tr>
+				<td>Bingo</td>
+				<td>28</td>
+				<td>Engineer</td>
+			</tr>
+			<tr>
+				<td>Bingo2</td>
+				<td>28</td>
+				<td>Engineer</td>
+			</tr>
+			<tr>
+				<td>Bingo3</td>
+				<td>28</td>
+				<td>Engineer</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
